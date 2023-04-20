@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hijouno{
+    background-color: hsl(0, 4%, 95%);
+}
+.hijodos{
+    background-color: rgb(243, 188, 188);
+    color: rgb(119, 5, 5);
+    padding: 1px;
+    margin: 16px;
+
+}
+.padre{
+    border: solid black;
+    width: 1200px;
+    height: 650px;
+}
+.uno{
+    width: 400px;
+    height: 35px;
+}
+.hijotres{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dos{
+    width: 300px;
+    height: 35px;
+}
+.tres{
+    width: 400px;
+    height: 35px;
+}
+.hijocuatro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
