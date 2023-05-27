@@ -3,6 +3,10 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
+input{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
 .hijouno{
     background-color: hsl(0, 4%, 95%);
 }
@@ -11,7 +15,6 @@ body{
     color: rgb(119, 5, 5);
     padding: 1px;
     margin: 16px;
-
 }
 .padre{
     border: solid black;
@@ -19,21 +22,25 @@ body{
     height: 650px;
 }
 .uno{
-    width: 400px;
-    height: 35px;
+    width: 35vW;
+    height: 4.5vH;
+}
+.dos{
+    width: 30vW;
+    height: 4.5vh;
+}
+.tres{
+    width: 15vw;
+    height: 4.5vh;
+}
+.cuatro{
+    width: 21vw;
+    height: 4.5vh;
 }
 .hijotres{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
-.dos{
-    width: 300px;
-    height: 35px;
-}
-.tres{
-    width: 400px;
-    height: 35px;
 }
 .hijocuatro{
     display: flex;
@@ -43,4 +50,11 @@ body{
 .flex{
     display: flex;
     justify-content: space-between;
+}
+.botton{
+    display: flex;
+    justify-content: right;
+}
+.boton-espacio{
+    padding: 10px 10px 10px 10px;
 }
