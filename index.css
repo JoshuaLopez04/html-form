@@ -9,17 +9,20 @@ input{
 }
 .hijouno{
     background-color: hsl(0, 4%, 95%);
+    padding: 5px;
 }
 .hijodos{
     background-color: rgb(243, 188, 188);
     color: rgb(119, 5, 5);
-    padding: 1px;
+    padding: 6px;
     margin: 16px;
+    border-radius: 3px;
 }
 .padre{
-    border: solid black;
+    border: 2.5px solid #564d4d17;
+    border-radius: 5px;
     width: 1200px;
-    height: 650px;
+    margin-top: 50px;
 }
 .uno{
     width: 35vW;
@@ -40,7 +43,7 @@ input{
 .hijotres{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    margin: 20px 20px 0px 20px;
 }
 .hijocuatro{
     display: flex;
@@ -57,4 +60,39 @@ input{
 }
 .boton-espacio{
     padding: 10px 10px 10px 10px;
+}
+.submit-container {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display:flex;
+    justify-content: end;
+    padding: 10px 10px;
+}
+.card-container {
+    /* posicionamiento */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1em;
+    padding: 0.3em 1em;
+    border: var(--borde);
+    border-radius: var(--borde-radius);
+    
+    /* tamano */
+    width: fit-content;
+    block-size: fit-content;
+
+    background-color: #6C757D;
+}
+.card-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+.card-container label {
+    margin-bottom: 0;
+}
+.btn{
+    margin-right: 8px;
 }
